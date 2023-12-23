@@ -1,6 +1,6 @@
 const fetchNotes = async () => {
   const response = await axios({
-    url: "https://mawunya-noteapp-32b2535329b1.herokuapp.com/",
+    url: "https://my-note-app-server-7cur.onrender.com/",
     method: "GET",
   });
   const notesList = response.data;

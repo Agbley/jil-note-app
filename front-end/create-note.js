@@ -3,7 +3,7 @@ const createNotes = async () => {
   const authorText = document.getElementById("author-text").value;
 
   const response = await axios({
-    url: "https://mawunya-noteapp-32b2535329b1.herokuapp.com/",
+    url: "https://my-note-app-server-7cur.onrender.com/",
     method: "POST",
     data: {
       notes: notesText,
